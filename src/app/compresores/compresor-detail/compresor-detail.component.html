@@ -1,0 +1,35 @@
+<div class="col s12 m7">
+  <div class="card horizontal">
+    <div class="card-stacked">
+      <div class="card-content">
+        <p> 
+          <strong>Ciclo:</strong> {{compresor.cycleState}}
+        </p>
+        <div class="divider"></div>
+
+        <p> 
+          <strong>Face de compresión:</strong> {{compresor.compresionStage}}
+        </p>
+        <div class="divider"></div>
+
+        <p> 
+          <strong>Tiempo activo:</strong> {{compresor.livingTime}} hs
+        </p>
+        <div class="divider"></div>
+
+        <p> 
+          <strong>Restante próximo servicio:</strong> {{compresor.nextServiceTime}} hs
+        </p>
+        <div class="divider"></div>
+
+        <p> 
+          <strong>Numeros de arranque de compresor:</strong> {{compresor.startCount}}
+        </p>
+        <div class="divider"></div>
+      </div>
+    </div>
+    <div class="card-image">
+      <img src="./assets/images/cryotruck.png" alt="ct">
+    </div>
+  </div>
+</div>

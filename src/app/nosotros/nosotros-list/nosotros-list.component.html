@@ -1,0 +1,14 @@
+<div class="container">
+    <ul class="collection">
+      <li class="collection-item">Alvin 1</li>
+      <li class="collection-item">Alvin 2</li>
+      <li class="collection-item">Alvin 3</li>
+      <li class="collection-item">Alvin 4</li>
+    </ul>
+    
+    <ul>
+      <li *ngFor="let actividad of actividades">
+        {{actividad == 'robo' ? 'robo (robar es malo)' : actividad}}
+      </li>
+    </ul>
+</div>
